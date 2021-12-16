@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.theme-title h2 {
+    position: relative;
+}
+
+body {      
+background-image: url('IMG_0956.JPG');                                
+    background-size: contain;
+background-attachment: fixed;
+
+
+
+}
+
+.navbar{
+  
+    position: fixed;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        z-index: 3;
+    
+}
+.btn:hover{
+ 
+    background-color: yellow;
+    color: black;
+
+}
+.first{
+ 
+     width: 450px;
+     height: 300px;
+     overflow: hidden;
+}
+
+.first img {
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.first img:hover{
+
+     transform: scale(1.2);
+     cursor: pointer;
+}
+
+.second {
+
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+.second img {
+    width: 100%;
+    transition: all 1s ease;
+}
+.second img:hover {
+
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.third {
+
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.third img {
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.third img:hover {
+
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#thirdsection{
+
+    margin: 40px;
+}
+#fourth_section {
+
+    margin: 30px;
+}
+#fourth_section .fbutton {
+
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    outline: none;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 60px;
+}
+#fourth_section .fbutton:hover {
+    
+    background-color:yellow;
+    color: black;
+    font-size: 17px;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+
+}
+
+#fourth_section .sbutton {
+
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    outline: none;
+    border-radius: 7px;
+    position: absolute;
+    top: 20%;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 60px;
+    
+}
+
+#fourth_section .sbutton:hover {
+
+    background-color: yellow;
+    color: black;
+    font-size: 17px;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+#za{
+
+    object-fit: cover;
+}
+#za:hover{
+
+         transform: scale(1.2);
+         transition: all 1s ease:   ;
+              cursor: pointer;
+
+}
+.text {
+
+    display: block;
+ 
+
+}
+.pic{
+
+    
+    position:relative ;
+display: block;
+}
+.c{
+
+    position: absolute;
+    display: block;
+    right: 20%;
+}
+#az{
+
+
+}
+.pic{
+
+display: block;
+    
+}
